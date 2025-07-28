@@ -1,0 +1,61 @@
+.container-update {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  background-color: #f8e4e8;; 
+  box-shadow: 0 0 12px rgba(139, 69, 19, 0.3); 
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.update-heading {
+  font-size: 26px;
+  color: maroon; 
+  margin-bottom: 20px;
+}
+
+.update-divider {
+  border: 1px solid maroon;
+  margin-bottom: 20px;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.update-input {
+  width: 85%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid maroon;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fdf5e6; 
+  color: #4b2e2e;
+}
+
+.update-input::placeholder {
+  color: #8b5e3c;
+  opacity: 0.8;
+}
+
+.update-button {
+  padding: 10px 20px;
+  background-color: brown; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: maroon; 
+}

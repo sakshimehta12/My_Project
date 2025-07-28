@@ -1,0 +1,72 @@
+.getall-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f8e4e8;;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(139, 69, 19, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.getall-heading {
+  color: maroon;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.getall-divider {
+  border: 1px solid maroon;
+  margin-bottom: 20px;
+}
+
+.getall-button {
+  padding: 10px 20px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.getall-button:hover {
+  background-color: maroon;
+}
+
+.getall-table-wrapper {
+  overflow-x: auto;
+}
+
+.getall-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fffaf0; 
+}
+
+.getall-th, .getall-td {
+  padding: 12px;
+  border: 1px solid maroon;
+  text-align: center;
+}
+
+.getall-thead {
+  background-color: rgb(190, 114, 139);
+  color: white;
+}
+
+.getall-row:nth-child(even) {
+  background-color: #fdf5e6; 
+}
+
+.getall-empty {
+  padding: 20px;
+  color: #6b2d2d;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
