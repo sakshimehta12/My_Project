@@ -8,7 +8,7 @@ export function Delete() {
   async function deleteData(e) {
     e.preventDefault();
     try {
-      const response = await axios.delete(`http://localhost:3000/api/employees/${id}`);
+      const response = await axios.delete(`https://my-project-upcq.onrender.com/api/employees/${id}`);
       alert(response.data.message);
     } catch (err) {
       alert("Record Not Found: " + err);
