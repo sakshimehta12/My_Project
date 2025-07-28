@@ -8,7 +8,7 @@ export function GetAll() {
   async function getInfo(e) {
     e.preventDefault();
     try{
-      const response = await axios.get('http://localhost:3000/api/employees');
+      const response = await axios.get('https://my-project-upcq.onrender.com/api/employees');
       setEmp(response.data);
     } catch(err){
       alert(err);
