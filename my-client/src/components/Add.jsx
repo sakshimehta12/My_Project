@@ -10,7 +10,7 @@ export function Add() {
   async function addHandler(e){
     e.preventDefault();
     try{
-      const response = await axios.post('http://localhost:3000/api/employees', {empNo, empName, empSal});
+      const response = await axios.post('https://my-project-upcq.onrender.com/api/employees', {empNo, empName, empSal});
       alert(response.data.message);
     } catch(err){
       alert(err);
