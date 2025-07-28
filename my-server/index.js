@@ -5,6 +5,10 @@ const cors = require('cors');
 const app=express();
 
 app.use(express.json());
+
+// new port 
+const port = 'https://frontend-sakshi.onrender.com';
+
 app.use(cors());
 
 
@@ -103,6 +107,6 @@ app.put('/api/employees/:id', async (req, res) => {
     }
 });
 
-app.listen(3000, () => {
+app.listen({port}, () => {
     console.log("Server running on http://localhost:3000");
 });
